@@ -1,15 +1,35 @@
 body {
 	background-color: LightGray;
+	-webkit-font-smoothing: antialiased;
 }
 div {
 	border: 1px solid Chocolate;
 }
 /* Navigation Section */
 .top-navigation {
-	backgrond-color: #fff;
+	background-color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
 }
 .top-navigation > .content {
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
+}
+.links {
+	float: right;
+	display: inline-block;
+}
+.content {
+	padding: 0px 15px;
+}
+.top-navigation .links > .active {
+	color: #4c5058;
+	font-weight: 500;
+}
+.links li:hover {
+	color: red;
+	cursor: pointer;
 }
